@@ -1,0 +1,98 @@
+@import url("bootstrap.css");
+
+.cover {
+
+	background-image: url("../../images/background.png");
+}
+
+.logotipo {
+	
+}
+.titles {
+
+	color: white;
+}
+
+.title-a {
+	padding-bottom: 12px;
+}
+.title-b {
+}
+.button {
+
+	background-color: #FF544F;
+	border-radius: 5px;
+	color: white;
+
+}
+.video-responsive-contenedor {
+	display: none;
+}
+.video-responsive-src {
+}
+
+.nav {
+	flex-direction: column;
+	font-size: 2.5rem;
+
+}
+
+.navbar {
+
+	justify-content: center;
+}
+
+.nav-link {
+
+	color: white;
+}
+
+.footer {
+
+	background-color: black;
+}
+
+.contact {
+
+	display: flex;
+	flex-direction: column;
+}
+
+.comments {
+
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 576px) { 
+
+
+.navbar {
+	justify-content: space-between;
+}
+
+.nav {
+	flex-direction: row;
+	font-size: 1.5rem;
+}
+
+
+
+.video-responsive-contenedor {
+	display: block;
+
+
+
+ }
+
+ 
+ 	.guitarras-info {
+	display: flex;
+	flex-direction: column;
+
+
+ 	}
+
+ 	}
+
+ }
