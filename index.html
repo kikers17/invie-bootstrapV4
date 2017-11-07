@@ -1,110 +1,120 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="es">
   <head>
-    <title>Invie - tus mejores guitarras!!</title>
-    <meta charset="utf-8"/>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="dist/css/index.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <!-- <link rel="stylesheet" media="(max-width: 800px)" href="css/media-querie.css"/> -->
+    <title>Invie-Tus mejores guitarras</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/74c1115820.js"></script>
+    <link rel="stylesheet" href="dist/css/index.css">
   </head>
   <body>
-    <section id="portada" class="cover"> <!-- portada -->
-      <header id="header" class="container"> <!-- header -->
-        <nav class="navbar" id="menu"> <!-- menu -->
-        <figure class="navbar-brand"> <!-- logotipo -->
-          <img src="images/invie.png" srcset="images/invie.png 1x, images/invie2x.png 2x" width="186" height="60" alt="Invie logotipo"/>
-        </figure>
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+    <!-- header -->
+    <header style="background-image: url(images/background.png)">
+    <div class="container">
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/invie.png" height="30" alt="image">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3" aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav3">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#guitarras">Guitarras</a>
+              <a class="nav-link" href="#guitarras">guitarras</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="precios.html">Precios</a>
+              <a class="nav-link" href="precios.html">precios</a>
             </li>
-          </ul>
-        </nav>
-      </header>
-      <div class="container titles">
-        <h1 class="title-a">Guitarras <span>invie</span>sibles</h1><!-- titulo -->
-        <h3 class="title-b">Sé la estrella de rock que siempre quisiste ser</h3><!-- resumen -->
-        <button class="button " href="#guitarras">Conoce mas</button> <!-- boton -->
+        </div>
+      </nav>
+    </div>
+    <section class="fdb-block fdb-viewport" >
+    <div class="container ">
+      <div class="row ">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+          <h1 class="pg-title-a">Guitarras inviesibles</h1>
+          <h3 class="pg-title-b">Sé la estrella de rock que siempre quisiste ser</h3>
+          <button class="btn">conocer mas</button>
+        </div>
       </div>
-    </section>
-    <section id="guitarras" class="container"> <!-- guitarras -->
-      <h2>Nuestra guitarras</h2><!-- titulo -->
-       <div class="video-responsive-contenedor">
-            <iframe class="video-responsive-src" width="560" height="315" src="https://www.youtube.com/embed/R1dW8M4EqYY" frameborder="0" allowfullscreen></iframe>
-          </div>
-      <article class="guitarra"> <!-- guitarra 1 -->
-        <img class="images-fluid" src="images/invie-acustica.png"  alt="Guitarra Invie Acustica" width="350"/>
-        <div class="guitarras-info">
-          <h3 class="title-b">Invie Acustica</h3>
+    </div>
+  </section>
+  </header>
+  <section class="guitarras container">
+    <h2>Conoce nuestras guitarras</h2>
+    <div class=" embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R1dW8M4EqYY" frameborder="0"></iframe>
+    </div>
+  </section>
+  <!-- guitarras -->
+  <section class="guitars" id="guitarras">
+    <div class="guitar-a container">
+      <div class="row align-items-center">
+        <div class="col-10 col-sm-6 col-md-5 col-lg-4 m-auto pb-5 pb-md-0">
+          <img alt="image" class="img-a img-fluid br-0" src="images/invie-acustica.png">
+        </div>
+
+        <div class="col-12 ml-md-auto col-md-7 col-lg-5 pb-5 pb-md-0">
+          
+          <h1>invie acustica</h1>
           <ol>
             <li>Estilo vintage</li>
             <li>Madera pura</li>
             <li>Incluye estuche invisible de aluminio</li>
           </ol>
         </div>
-      </article>
-      <article class="guitarra"> <!-- guitarra 2 -->
-        <img class="izquierda" src="images/invie-classic.png" alt="Guitarra Invie Classic" width="350"/>
-        <div class="guitarras-info">
-          <h3 class="title-b">Invie Classic</h3>
+      </div>
+    </div>
+    <div class=" guitar-b container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-7 col-lg-5 ml-md-auto">
+          <h1>invie classic</h1>
           <ol>
             <li>Estilo vintage</li>
             <li>Liviana</li>
             <li>Inicia tu camino como Rockstar</li>
           </ol>
         </div>
-      </article>
-    </section>
-    <footer class="footer">
-      <div class="container">
-          <img src="images/invie-white.png" alt="logotipo blanco"/>
-        <div class="contact">
-          <a href="tel:+573024456678"><strong>Telefono</strong> <span>3024456678</span></a>
-          <a href="mailto:contacto@invie.com"><strong>E-mail</strong> <span>contacto@invie.com</span></a>
+
+        <div class="img-b col-10 col-sm-6 col-md-5 col-lg-4 m-auto pt-5 pt-md-0">
+          <img alt="image" class=" img-fluid br-0" src="images/invie-classic.png">
         </div>
-        <form>
-          <div class="form-group">
-            <label for="nombre">Nombre</label>
-            <input class="form-control" type="text" required id="nombre" name="nombre"/>
-            <label for="email">E-mail</label>
-            <input class="form-control" type="email" required id="email" name="email"/>
-            <div class="sexo">
-              <label class="custom-control custom-radio" for="mujer">
-                <input type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
-              </label>
-              <label class="custom-control custom-radio" for="hombre">
-                <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
-              </label>
-            </div>
-            <div class="form-group">
-              <label class="custom-control custom-checkbox" for="cotizacion">
-                <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
-              </label>
-              <label class="custom-control custom-checkbox" for="reclamos">
-                <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
-              </label>
-              <label class="custom-control custom-checkbox" for="comentarios">
-                <input type="checkbox" id="comentarios" name="intereses" value="comantarios"> Comentarios
-              </label>
-              <label class="custom-control custom-checkbox" for="otros">
-                <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
-              </label>
-            </div>
-          </div>
-          <div class="comments">
-            <label for="comentarios">Comentarios</label>
-            <textarea name="comantarios" id="comentarios" cols="30" rows="7"></textarea>
-            <input type="submit" value="Enviar" class="button"/>
-          </div>
-        </form>
       </div>
-    </footer>
+    </div>
+  </section>
+<footer class="fdb-block footer-small" style="background-color: black">
+    <div class="container">
+      <div class="row text-center align-items-center">
+        <div class="col-12 col-sm-6 col-md-4 text-sm-left">
+          <img alt="image" src="images/invie-white.png" height="40">
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 mt-4 mt-sm-0 text-center text-sm-right text-md-center">
+          &copy; 2017-Invie
+        </div>
+
+        <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
+          <a href="https://github.com/kikers17/invie-bootstrapV4"><i class="fa fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
 </html>
