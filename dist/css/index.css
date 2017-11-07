@@ -1,98 +1,96 @@
-@import url("bootstrap.css");
-
-.cover {
-
-	background-image: url("../../images/background.png");
+.nav-item{
+	font-size: 1.2rem;
+	color: white;
 }
 
-.logotipo {
+.pg-title-a{
+	color: white;
+	padding-top: 63px;
+}
+.pg-title-b{
+	color: white;
+}
+
+
+.nav-link{
+	color: white;
+}
+
+.btn{
+
+	color:white;
+	background: #FF634F;
+	margin-bottom: 100px;
+    margin-top: 36px;
+     }
+.guitars{
+	padding-bottom: 15px;
+}
+
+
 	
+	.guitar-a{
+		border: 1px green solid;
+	margin-top: 46px;
+	border-radius: 15px;
+
+	}
+	.guitar-b{
+		border: 1px green solid;
+	margin-top: 46px;
+	border-radius: 15px;
+
+	}
+	a{
+		color: white;
+	}
+	.fa{
+		font-size: 34px;
+	}
+	.pg-title-ab{
+
+		padding-top: 91px;
+		padding-bottom: 72px;
+		color: white;
+	}
+	
+	
+
+
+@media (max-width: 575px) {
+
+	.guitarras {
+		display: none;
+	}
+	.guitar-a{
+		border: 0px;
+	margin-top: 0px;
+	border-radius: 0px;
+
+	}
+	.guitar-b{
+		border: 0px ;
+	margin-top: 0px;
+	border-radius: 0px;
+
 }
-.titles {
-
-	color: white;
-}
-
-.title-a {
-	padding-bottom: 12px;
-}
-.title-b {
-}
-.button {
-
-	background-color: #FF544F;
-	border-radius: 5px;
-	color: white;
-
-}
-.video-responsive-contenedor {
-	display: none;
-}
-.video-responsive-src {
-}
-
-.nav {
-	flex-direction: column;
-	font-size: 2.5rem;
-
-}
-
-.navbar {
-
-	justify-content: center;
-}
-
-.nav-link {
-
-	color: white;
-}
-
-.footer {
-
-	background-color: black;
-}
-
-.contact {
-
-	display: flex;
-	flex-direction: column;
-}
-
-.comments {
-
-	display: flex;
-	flex-direction: column;
-}
-
-@media (min-width: 576px) { 
-
-
-.navbar {
-	justify-content: space-between;
-}
-
-.nav {
-	flex-direction: row;
-	font-size: 1.5rem;
+.img-b{
+	order: -1;
 }
 
 
 
-.video-responsive-contenedor {
-	display: block;
+}
 
 
+@media (min-width: 576px) and (max-width: 767px) {
+	
 
- }
+}
+ @media (min-width: 768px) and (max-width: 991px) {
 
- 
- 	.guitarras-info {
-	display: flex;
-	flex-direction: column;
+}
+ @media (min-width: 992px) and (max-width: 1199px){
 
-
- 	}
-
- 	}
-
- }
+}
+@media (min-width: 1200px) {  }
