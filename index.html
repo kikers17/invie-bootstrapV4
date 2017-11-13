@@ -44,7 +44,7 @@
         <div class="col-12 col-sm-10 col-md-8 col-lg-6">
           <h1 class="pg-title-a">Guitarras inviesibles</h1>
           <h3 class="pg-title-b">Sé la estrella de rock que siempre quisiste ser</h3>
-          <button href="precios.html" class="btn">conocer mas</button>
+          <button href="precios.html" class="btn btn-invie">conocer mas</button>
         </div>
       </div>
     </div>
@@ -92,24 +92,59 @@
       </div>
     </div>
   </section>
-<footer class="fdb-block footer-small" style="background-color: black">
+  <footer class="fdb-block footer-large bg-dark"> 
     <div class="container">
-      <div class="row text-center align-items-center">
-        <div class="col-12 col-sm-6 col-md-4 text-sm-left">
-          <img alt="image" src="images/invie-white.png" height="40">
+      <div class="row align-items-top text-center text-md-left">
+        <div class="col-12 col-sm-6 col-md-4">
+          <img src="images/invie-white.png" alt="image">
+          <p><a href="tel:+44 827 312 5002">+44 827 312 5002</a></p>
+          <p><a href="mailto:invie@guitarras.com">invie@guitarras.com</a></p>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4 mt-4 mt-sm-0 text-center text-sm-right text-md-center">
-          &copy; 2017-Invie
+        <div class="col-12 col-sm-6 col-md-4 mt-4 mt-sm-0">
+          <form action="">
+            <div class="form-group">
+          <label for="nombre">Nombre</label>
+            <input class="form-control" type="text" required id="nombre" name="nombre"/>
+            </div>
+            <div class="form-group">
+            <label for="email">E-mail</label>
+            <input class="form-control" type="email" required id="email" name="email"/>
+            </div>
+            <div>
+            <label for="mujer">
+              <input class="" type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
+              </label>
+              <label for="hombre">
+                <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+              </label>
+              </div>
+              <label for="cotizacion">
+                <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
+              </label>
+              <label for="reclamos">
+                <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+              </label>
+              <label for="comentarios">
+                <input type="checkbox" id="comentarios" name="intereses" value="comantarios"> Comentarios
+              </label>
+              <label for="otros">
+                <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+              </label>
+           </form>
         </div>
 
-        <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
-          <a href="https://github.com/kikers17/invie-bootstrapV4"><i class="fa fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;
+        <div class="col-12 col-md-4 mt-5 mt-md-0 text-md-left">
+          <div class="form-group">
+          <label for="comentarios">Comentarios</label>
+            <textarea class="form-control" name="comantarios" id="comentarios" cols="30" rows="7"></textarea>
+            <input type="submit" value="Enviar" class="btn"/>
+            </div>
+          </div>
 
-        </div>
-      </div>
     </div>
-  </footer>
+  </div>
+</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
