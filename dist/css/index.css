@@ -57,7 +57,37 @@
 	*{
 		font-family: 'Roboto', sans-serif;
 	}
-	
+	.guitarras-list {
+ 		font-size: 1.5rem; 	
+ 	}
+
+ 	.img-b{
+		filter: grayscale(0%);
+		transition-duration: 0.5s;
+
+ 	}
+ 	.img-a{
+		filter: grayscale(0%);
+		transition-duration: 0.5s;
+		animation-direction: alternate;
+
+
+
+
+ 	}
+
+ 	.img-b:hover{
+		filter: grayscale(100%);
+
+
+ 	}
+ 	.img-a:hover{
+		filter: grayscale(100%);
+		
+
+
+ 	}
+
 
 
 @media (max-width: 575px) {
@@ -81,12 +111,17 @@
 	order: -1;
 }
 
+.guitarras-list {
+ 		font-size: 1.3rem; 	
+ 	}
+
 
 
 }
 
 
 @media (min-width: 576px) and (max-width: 767px) {
+	
 	
 
 }
