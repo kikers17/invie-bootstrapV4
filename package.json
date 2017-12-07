@@ -1,0 +1,29 @@
+{
+  "name": "invie-bootstrapv4",
+  "version": "1.0.0",
+  "description": "Las guitarras más locas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikers17/invie-bootstrapV4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kikers17/invie-bootstrapV4/issues"
+  },
+  "homepage": "https://github.com/kikers17/invie-bootstrapV4#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0"
+  }
+}

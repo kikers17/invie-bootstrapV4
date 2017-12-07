@@ -1,0 +1,84 @@
+.fdb-block {
+background-color: transparent;
+
+}
+.nav-link {
+font-size: 1.5rem;
+}
+header .navbar-nav a.nav-link {
+color: #ffffff;
+}
+
+header .navbar-nav a.nav-link:hover {
+color: #ffffff;
+}
+header .navbar-nav .active a.nav-link {
+color: #ffffff;
+}
+.guitar-list {
+color: black;
+}
+.invie-titles {
+color: white;
+}
+.btn {
+background-color:#FF5B4F ;
+border: solid 2px #FF5B4F;
+}
+.row.align-items-center {
+border:3px solid green;
+border-radius: 25px;
+}
+.btn:hover {
+background-color:#FF5B4F ;
+border: solid 2px #FF5B4F;
+}
+.bg-black {
+background-color: black;
+color:white;
+}
+img.img-fluid{
+	filter: grayscale(0%);
+	transition-duration: 1s;
+}
+img.img-fluid:hover{
+	filter: grayscale(100%);
+	  }
+
+
+h1 {
+	padding-top: 43px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575px) {
+
+	img.img-fluid:hover{
+	filter: grayscale(0%);
+	  }
+
+.container.pt-3 {
+display: none;
+}
+.img-b {
+order: -1;
+}
+}
+@media (min-width: 576px) and (max-width: 767px) {  }
+@media (min-width: 768px) and (max-width: 991px) {  }
+@media (min-width: 992px) and (max-width: 1199px) { }
+@media (min-width: 1200px) {  }
