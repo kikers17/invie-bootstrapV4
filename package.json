@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/kikers17/invie-bootstrapV4#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0-beta.2"
+    "bootstrap": "^4.0.0-beta.2",
+    "rucksack-css": "^1.0.2"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",

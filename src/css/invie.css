@@ -38,25 +38,38 @@ background-color: black;
 color:white;
 }
 img.img-fluid{
-	filter: grayscale(0%);
-	transition-duration: 1s;
+	-webkit-filter: grayscale(0%);
+	        filter: grayscale(0%);
+	-webkit-transition-duration: 1s;
+	        transition-duration: 1s;
 }
 img.img-fluid:hover{
-	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	        filter: grayscale(100%);
 	  }
 
 
 h1 {
-	padding-top: 43px;
+	padding-top: 15vh;
 }
 
 
+* {
+	font-size: responsive;
+}
 
+.guitarra-1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
+.guitarra-2 {
+	padding-bottom: 20px;
+}
 
-
-
-
+.invie-header {
+	height: 65vh;
+}
 
 
 
@@ -68,14 +81,17 @@ h1 {
 @media (max-width: 575px) {
 
 	img.img-fluid:hover{
-	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	        filter: grayscale(0%);
 	  }
 
 .container.pt-3 {
 display: none;
 }
 .img-b {
-order: -1;
+-webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+        order: -1;
 }
 }
 @media (min-width: 576px) and (max-width: 767px) {  }

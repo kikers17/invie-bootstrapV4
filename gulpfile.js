@@ -3,6 +3,7 @@ var postcss = require('gulp-postcss');
 var browserSync = require('browser-sync').create();
 var atImport = require("postcss-import");
 var cssnext = require('postcss-cssnext');
+var rucksack = require('rucksack-css');
 
 // Servidor de desarrollo
 gulp.task('serve', function () {
@@ -20,6 +21,7 @@ gulp.task('css', function () {
   var processors = [
         cssnext(),
         atImport(),
+        rucksack(),
 
 
   ]
